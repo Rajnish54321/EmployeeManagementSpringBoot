@@ -19,6 +19,6 @@ public class GitDemoController {
 	@GetMapping("/getbranchname")
 	public @ResponseBody Object getBranchName() {
 		
-		return "Master Branch";
+		return " Rajnish Master Branch";
 	}
 }
